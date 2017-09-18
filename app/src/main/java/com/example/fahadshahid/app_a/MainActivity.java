@@ -35,5 +35,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void buttonClickTwo(View view){
+        Intent intent = new Intent(this,ActivityTwo.class);
+        startActivity(intent);
+    }
+
 
 }

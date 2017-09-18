@@ -19,7 +19,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivitiyOne"></activity>
+        <activity android:name=".ActivitiyOne" />
+        <activity android:name=".ActivityTwo">
+            <intent-filter>
+                <action android:name="implicitaccess"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+
+
+
+        </activity>
     </application>
 
 </manifest>
